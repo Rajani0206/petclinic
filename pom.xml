@@ -20,7 +20,7 @@
 
     <properties>
         <java.version>17</java.version> <!-- Set Java version -->
-        <spring-boot.version>3.0.1</spring-boot.version> <!-- Spring Boot version -->
+        <spring-boot.version>2.5.4</spring-boot.version> <!-- Spring Boot version -->
     </properties>
 
     <dependencies>
@@ -70,7 +70,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.11.0</version>
+                <version>3.8.1</version>
                 <configuration>
                     <release>17</release> <!-- Ensure Java 17 is used -->
                 </configuration>
